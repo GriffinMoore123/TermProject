@@ -1,0 +1,80 @@
+.navbar {
+  display:grid;
+  grid-template-columns: 200px;
+  grid-row: 50px;
+  grid-gap: 30px;
+ 
+
+
+  justify-content: center;
+  align-items: center;
+
+
+  border: 1px gray dotted;
+}
+.navbar > div > a {
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+}
+.navbar > div {
+  height: 30px;
+  line-height: 30px;
+  background-color: lightgray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: red;
+  flex: 1 1 auto;
+  border: 1px black;
+  border-radius: 10px;
+  text-align: center;
+
+
+  margin: 5px; /* and that, will result in a 10px gap */
+}
+.navbar > div:hover {
+  background-color: bisque;
+}
+.box1 {
+  grid-row: 2;
+  grid-column: 1
+  ;
+}
+
+.box5 {
+  grid-row: 1;
+  grid-column: 2
+  ;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr  ;
+  grid-template-rows: 100px 100px;
+  grid-gap: 10px;
+  border: 1px red dotted;
+}
+
+
+.wrapper > div {
+  border: 1px red solid;
+}
+.leftside_images {
+  float: left;
+  width: 250px;
+  margin-right: 30px;
+  border: 1px blue solid;
+}
+
+
+.rightside_images {
+  float: right;
+  width: 400px;
+  margin-left: 30px;
+  border: 1px blue solid;
+}
+
+h1{ color: red; font: 12px ;
+}
+
+
